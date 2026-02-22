@@ -9,6 +9,7 @@ Original file is located at
 
 import streamlit as st
 import joblib
+import panda as pd
 model=joblib.load("dtc_model.pkl")
 st.title("wine type perdiction !")
 footfall =st.number_input("footfall")
