@@ -28,7 +28,7 @@ fail=st.number_input("fail")
 
 input_data=pd.DataFrame({
     "footfall":[footfall],
-    "volatile_acidity":[volatile_acidity],
+    "tempMode":[tempMode],
     "AQ":[AQ],
     "USS":[USS],
     "CS":[CS],
